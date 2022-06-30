@@ -9,5 +9,7 @@
 {"resources":"Person Details", "role":"Guest"}
     ,
 {"resources":"BMI Details", "role":"Guest"}
+    ,
+{"resources":"Active Details", "role":"Guest"}
     
 ]
