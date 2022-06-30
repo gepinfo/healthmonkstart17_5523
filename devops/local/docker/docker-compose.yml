@@ -203,7 +203,7 @@ services:
     image: systementry-5523
     container_name: systementry-5523
     ports: 
-      - 8010:8010
+      - 8012:8012
     env_file: .env
     depends_on:
       - mongo
@@ -219,7 +219,7 @@ services:
     image: personmanager-5523
     container_name: personmanager-5523
     ports: 
-      - 8011:8011
+      - 8013:8013
     env_file: .env
     depends_on:
       - mongo
